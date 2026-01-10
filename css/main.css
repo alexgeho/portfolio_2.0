@@ -35,4 +35,41 @@ body {
   header h1 {
     font-size: 1rem;
   }
+  .hero-image img {
+    width: 250px;
+    height: auto;
+  }
+  #hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #skills img {
+    width: 300px;
+    height: auto;
+  }
+  .skills {
+    align-content: center;
+  }
+  #projects {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  footer {
+    background-color: rgb(187, 223, 255);
+  }
+  .social-media {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .social-media img {
+    width: 50px;
+    height: auto;
+  }
+  .right img {
+    width: 50px;
+  }
 }

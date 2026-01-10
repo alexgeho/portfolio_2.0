@@ -25,8 +25,17 @@
 <body>
 
   <header>
+
     <div class="logo">
-      <h1>Portfolio - Fullstack developer</h1></div>
+      <h1>Portfolio - Fullstack developer</h1>
+    </div>
+
+    <!-- <div class="burger-menu" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div> -->
+
     <nav>
       <ul class="menu">
         <li><span>home</span></li>
@@ -35,31 +44,97 @@
         <li><span>contact</span></li>
       </ul>
     </nav>
+
   </header>
 
   <main>
 
     <section id="hero">
-      <div class="hero-content"></div>
-      <div class="hero-image"></div>
+      <div class="hero-content">
+        <h2>Turning ideas into scalable web solutions</h2>
+        <p>Fullstack development with focus on quality and architecture</p>
+      </div>
+      <div class="hero-image">
+        <img src="./img/hero/JagGrey.png" alt="">
+      </div>
     </section>
 
     <section id="skills">
-      <aside class="skills"></aside>
-      <div class="skills-image"></div>
+      <aside class="skills">
+        <p>SKILLS</p>
+        <p>SKILLS</p>
+        <p>SKILLS</p>
+        <p>SKILLS</p>
+        <p>SKILLS</p>
+        <p>SKILLS</p>
+        <p>SKILLS</p>
+        <p>SKILLS</p>
+        <p>SKILLS</p>
+        <p>SKILLS</p>
+        <p>SKILLS</p>
+      </aside>
+      <div class="skills-image">
+        <img src="./img/skills/skills-man.svg" alt="">
+      </div>
     </section>
 
     <section id="projects">
-      <article></article>
-      <article></article>
+      <article>
+        <h3>Project 1</h3>
+      </article>
+      <article>
+        <h3>Project 2</h3>
+      </article>
+      <article>
+        <h3>Project 3</h3>
+      </article>
     </section>
-    <section id="contact"></section>
+
+    <section id="contact">
+      <img src="./img/contact/contactMe.svg" alt="">
+      <form action="">
+
+        <fieldset>
+
+          <legend>Every problem has more than one solution.</legend>
+          <div>Let’s find the right one.</div>
+          <label for="">
+            <div>name</div>
+            <input type="text" id="name" name="name">
+          </label>
+
+          <label for="">
+            <div>email/phone</div>
+            <input type="text" id="name" name="name">
+          </label>
+
+          <label for="">
+            <div>message</div>
+            <textarea name="" id="message"></textarea>
+          </label>
+
+        </fieldset>
+
+      </form>
+    </section>
 
   </main>
 
   <footer>
-    <div class="left"></div>
-    <div class="right"></div>
+    <div class="left">
+      <div>My social media links:</div>
+      <div class="social-media">
+        <img src="./img/footer/email.svg" alt="">
+        <img src="./img/footer/linkedin.svg" alt="">
+        <img src="./img/footer/whatsapp.svg" alt="">
+      </div>
+    </div>
+    <div class="right">
+      <img src="./img/footer/github.svg" alt="">
+      <p>More project i've worked on</p>
+      <p>@Alexgeho on github</p>
+      
+    </div>
   </footer>
 
   <script src="js/app.js"></script>
