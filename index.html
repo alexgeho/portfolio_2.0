@@ -30,13 +30,13 @@
       <h1>Portfolio - Fullstack developer</h1>
     </div>
 
-    <!-- <div class="burger-menu" onclick="myFunction(this)">
+    <div class="burger-menu" onclick="toggleMenu(this)">
       <div class="bar1"></div>
       <div class="bar2"></div>
       <div class="bar3"></div>
-    </div> -->
+    </div>
 
-    <nav>
+    <nav class="nav">
       <ul class="menu">
         <li><span>home</span></li>
         <li><span>skills</span></li>
@@ -60,22 +60,41 @@
     </section>
 
     <section id="skills">
-      <aside class="skills">
-        <p>SKILLS</p>
-        <p>SKILLS</p>
-        <p>SKILLS</p>
-        <p>SKILLS</p>
-        <p>SKILLS</p>
-        <p>SKILLS</p>
-        <p>SKILLS</p>
-        <p>SKILLS</p>
-        <p>SKILLS</p>
-        <p>SKILLS</p>
-        <p>SKILLS</p>
-      </aside>
+
       <div class="skills-image">
         <img src="./img/skills/skills-man.svg" alt="">
       </div>
+
+      <aside class="skills">
+
+        <div class="skills-menu">
+          <button class="skills-tab active" data-target="tech">Tech Skills</button>
+          <button class="skills-tab" data-target="architecture">Architecture</button>
+          <button class="skills-tab" data-target="focus">Focus</button>
+        </div>
+
+        <div class="skills-panels">
+
+          <div class="skills-panel active" id="panel-tech">
+            <div class="skills-logos">
+              <img src="./img/skills/tech-skills/nestjs.svg" alt="">
+              <img src="./img/skills/tech-skills/js.svg" alt="">
+              <img src="./img/skills/tech-skills/typescript.svg" alt="">
+              <img src="./img/skills/tech-skills/react.svg" alt="">
+              <img src="./img/skills/tech-skills/css.svg" alt="">
+              <img src="./img/skills/tech-skills/html.svg" alt="">
+              <img src="./img/skills/tech-skills/figma.svg" alt="">
+              <img src="./img/skills/tech-skills/mongodb.svg" alt="">
+            </div>
+          </div>
+
+          <div class="skills-panel" id="panel-architecture">architecture</div>
+          <div class="skills-panel" id="panel-focus">focus</div>
+
+        </div>
+
+      </aside>
+
     </section>
 
     <section id="projects">
@@ -133,7 +152,7 @@
       <img src="./img/footer/github.svg" alt="">
       <p>More project i've worked on</p>
       <p>@Alexgeho on github</p>
-      
+
     </div>
   </footer>
 
