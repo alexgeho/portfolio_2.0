@@ -27,6 +27,7 @@ body {
 
 @media (max-width: 510px) {
   header {
+    display: flex;
     background-color: rgb(195, 255, 252);
   }
   header h1 {
@@ -37,10 +38,13 @@ body {
   }
   .nav.open {
     display: block;
+    order: 1;
   }
   .burger-menu {
+    order: 2;
     display: inline-block;
     cursor: pointer;
+    margin-left: auto;
   }
   .bar1,
   .bar2,
