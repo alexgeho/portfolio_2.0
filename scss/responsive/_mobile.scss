@@ -3,7 +3,7 @@
     header {
         display: flex;
         background-color: rgb(195, 255, 252);
-        
+
 
         h1 {
             font-size: 1rem;
@@ -13,17 +13,17 @@
 
     .nav {
         display: none;
-        
+
     }
 
     .nav.open {
         display: block;
-        order: 1; 
+        order: 1;
     }
 
 
     .burger-menu {
-        order: 2; 
+        order: 2;
         display: inline-block;
         cursor: pointer;
         margin-left: auto;
@@ -68,6 +68,10 @@
 
     // SKILLS
 
+    #skills {
+        place-items: center;
+    }
+
     .skills-menu ul {
         list-style: none;
         display: flex;
@@ -102,13 +106,40 @@
     #projects {
         display: grid;
         grid-template-rows: repeat(3, 1fr);
+        place-items: center;
     }
 
+    .external {
+        border: 1px solid rgb(0, 0, 0);
+        width: 340px;
+        min-height: 90px;
+        display: grid;
+        place-items: center;
+    }
+
+    .internal {
+        border: 1px solid rgb(85, 255, 0);
+        width: 240px;
+        min-height: 60px;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .headlines {
+        position: static;
+    }
+
+
+    // CONTACT
+    #contact {
+        place-items: center;
+    }
 
     // FOOTER
 
     footer {
         background-color: rgb(187, 223, 255);
+        place-items: center;
     }
 
     .social-media {
