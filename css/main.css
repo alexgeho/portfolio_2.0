@@ -114,18 +114,26 @@ body {
   .internal {
     border: 1px solid rgb(85, 255, 0);
     width: 240px;
-    height: 260px;
+    min-height: 260px;
     padding: 10px;
     margin: 20px;
+    place-items: center;
   }
   .headlines {
     position: static;
   }
   .img-block {
-    border: 2px solid rgb(13, 0, 255);
-    height: 200px;
+    border: 2px solid rgb(4, 4, 4);
+    height: 270px;
     max-width: 250px;
     overflow: hidden;
+    position: relative;
+  }
+  .img-block img {
+    width: 480px;
+    height: auto;
+    position: relative;
+    left: 5px;
   }
   #contact {
     place-items: center;
