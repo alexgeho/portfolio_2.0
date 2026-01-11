@@ -120,13 +120,22 @@
     .internal {
         border: 1px solid rgb(85, 255, 0);
         width: 240px;
-        min-height: 60px;
+        height: 260px;
         padding: 10px;
         margin: 20px;
+
     }
+
 
     .headlines {
         position: static;
+    }
+
+    .img-block {
+        border: 2px solid rgb(13, 0, 255);
+        height: 200px;
+        max-width: 250px;
+        overflow: hidden;
     }
 
 
