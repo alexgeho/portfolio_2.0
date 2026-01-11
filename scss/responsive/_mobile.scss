@@ -129,11 +129,12 @@
         min-height: 90px;
         display: grid;
         place-items: center;
+        
     }
 
     .internal {
         border: 2px solid;
-        border-image: linear-gradient(45deg, #00ff99, #00b4ff) 1;
+        border-image: linear-gradient(45deg, #262c4c, #7c87c3) 1;
         width: 240px;
         min-height: 260px;
         padding: 10px;
@@ -147,27 +148,29 @@
     .headlines {
         position: static;
         color: white;
+        place-items: center;
         h3 {
             margin: 25px 0px 5px;
-            font-weight: 300;
+            font-weight: 100;
+            font-size: 1rem;
         }
         p {
             margin: 15px 0px 30px;
+            font-weight: 100;
+            font-size: 0.8rem;
         }
     }
 
     .img-block {
-        border: 2px solid rgb(4, 4, 4);
         height: 270px;
         max-width: 250px;
         overflow: hidden;
         position: relative;
 
         img {
-            width: 480px;
+            width: 240px;
             height: auto;
             position: relative;
-            left: 5px;
         }
     }
 
@@ -175,11 +178,12 @@
         border: 1px solid rgb(255, 255, 255);
         border-radius: 5px;
         padding: 15px;
+        margin-bottom: 20px;
         background-color: rgb(151, 212, 192);
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-style: up;
         color: #fff;
-        text-transform: uppercase;
+        text-transform: capitalize;
         background-color: #272d4e;
     }
 
