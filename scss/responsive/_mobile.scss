@@ -11,6 +11,8 @@
         }
     }
 
+    
+
 
     .nav {
         display: none;
@@ -19,6 +21,7 @@
 
     .nav.open {
         display: block;
+        margin-top: 10px;
         order: 1;
         position: relative;
         top: 30px;
@@ -29,13 +32,19 @@
     .menu li {
 
         padding: 3px;
+        border-bottom: 1px solid #333;
 
         a {
-            font-size: 1.6rem;
-            font-weight: 100;
-            color: #000;
+            text-decoration: none;
+            color: #111;
+            font-weight: 500;
+            font-size: 1.1rem;
         }
 
+        a:hover {
+            background-color: #7c87c3;
+            
+        }
     }
 
 
@@ -402,7 +411,7 @@
         }
     }
 
-    
+
 
     .right img {
         width: 50px;
