@@ -48,16 +48,12 @@ body {
   }
   .menu li {
     padding: 3px;
-    border-bottom: 1px solid #333;
   }
   .menu li a {
     text-decoration: none;
     color: #111;
     font-weight: 500;
     font-size: 1.1rem;
-  }
-  .menu li a:hover {
-    background-color: #7c87c3;
   }
   .burger-menu {
     order: 2;
