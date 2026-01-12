@@ -312,6 +312,26 @@
         outline: none;
     }
 
+        #contact button {
+            display: inline-flex;
+            position: relative;
+            align-items: center;
+            color: #fff;
+            padding: 0 14px 0;
+            gap: 10px;
+            border-radius: 5px;
+            text-transform: uppercase;
+            background-color: #343d68;
+            height: 50px;
+
+            img {
+                width: 30px;
+                position: relative;
+                top: 20px;
+                
+            }
+        }
+
 
 
 
