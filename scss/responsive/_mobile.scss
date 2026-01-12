@@ -251,7 +251,7 @@
         text-decoration: none;
         font-size: 1.1rem;
         font-weight: 100;
-        
+
     }
 
 
@@ -296,7 +296,6 @@
         margin-top: 20px;
         display: flex;
         flex-direction: column;
-        font-size: 1.2rem;
         margin-bottom: 16px;
         text-transform: capitalize;
     }
@@ -312,25 +311,66 @@
         outline: none;
     }
 
-        #contact button {
-            display: inline-flex;
-            position: relative;
-            align-items: center;
-            color: #fff;
-            padding: 0 14px 0;
-            gap: 10px;
-            border-radius: 5px;
-            text-transform: uppercase;
-            background-color: #343d68;
-            height: 50px;
+    #contact button {
+        display: inline-flex;
+        position: relative;
+        align-items: center;
+        color: #fff;
+        padding: 0 14px 0;
+        gap: 10px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        background-color: #343d68;
+        height: 50px;
+        cursor: pointer;
+        margin-top: 20px;
 
-            img {
-                width: 30px;
-                position: relative;
-                top: 20px;
-                
-            }
+        img {
+            width: 25px;
+            position: relative;
+            top: 20px;
+
         }
+    }
+
+    .field {
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .field input {
+        width: 100%;
+        padding: 14px 12px;
+    }
+
+    .field label {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-120%);
+        color: #777;
+        pointer-events: none;
+        transition: 0.2s ease;
+        padding: 0 4px;
+        font-size: 1.2rem;
+    }
+
+
+    .field input:focus+label,
+    .field input:not(:placeholder-shown)+label {
+        top: -6px;
+        color: #777;
+        font-size: 0.5rem;
+        font-size: 1rem;
+    }
+
+
+    .field textarea:focus+label,
+    .field textarea:not(:placeholder-shown)+label {
+        top: -6px;
+        font-size: 1rem;
+    }
+
 
 
 

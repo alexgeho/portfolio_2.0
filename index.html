@@ -138,7 +138,7 @@
               <h3>Projekt and time managment</h3>
               <p>Hourstracker, crue and project control ...</p>
             </div>
-              <div>
+            <div>
               <a href="/projects/project-2" class="btn-project">
                 read more →
               </a>
@@ -181,24 +181,25 @@
           <div>
             <p>Let’s find the right one.</p>
           </div>
-          <label for="">
-            <div>name</div>
-            <input type="text" id="name" name="name">
-          </label>
 
-          <label for="">
-            <div>email/phone</div>
-            <input type="text" id="name" name="name">
-          </label>
+          <div class="field">
+            <input type="text" id="name" placeholder=" " required />
+            <label for="name">Name</label>
+          </div>
 
-          <label for="">
-            <div>message</div>
-            <textarea name="" id="message"></textarea>
-          </label>
+          <div class="field">
+            <input type="text" id="name" placeholder=" " required />
+            <label for="email, phone">email/phone</label>
+          </div>
 
-          <button type="submit" class="btn-contact">
-            send message 
-            <img src="./img/contact/paperPlane.svg" alt="">
+          <div class="field">
+            <textarea id="message" placeholder=" " required></textarea>
+            <label for="message">Message</label>
+
+
+          </div>
+
+          <button type="submit" class="btn-contact">send message <img src="./img/contact/paperPlane.svg" alt="">
           </button>
 
         </fieldset>

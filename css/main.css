@@ -251,7 +251,6 @@ body {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    font-size: 1.2rem;
     margin-bottom: 16px;
     text-transform: capitalize;
   }
@@ -276,11 +275,44 @@ body {
     text-transform: uppercase;
     background-color: #343d68;
     height: 50px;
+    cursor: pointer;
+    margin-top: 20px;
   }
   #contact button img {
-    width: 30px;
+    width: 25px;
     position: relative;
     top: 20px;
+  }
+  .field {
+    position: relative;
+    margin-top: 20px;
+  }
+  .field input {
+    width: 100%;
+    padding: 14px 12px;
+  }
+  .field label {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-120%);
+    color: #777;
+    pointer-events: none;
+    transition: 0.2s ease;
+    padding: 0 4px;
+    font-size: 1.2rem;
+  }
+  .field input:focus + label,
+  .field input:not(:placeholder-shown) + label {
+    top: -6px;
+    color: #777;
+    font-size: 0.5rem;
+    font-size: 1rem;
+  }
+  .field textarea:focus + label,
+  .field textarea:not(:placeholder-shown) + label {
+    top: -6px;
+    font-size: 1rem;
   }
   footer {
     background-color: #343d68;
