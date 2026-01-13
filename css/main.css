@@ -25,6 +25,24 @@ body {
   border: 0;
 }
 
+section {
+  padding: 20px 20px 0;
+}
+
+header {
+  padding: 0 20px 0;
+  margin-top: 10px;
+}
+
+.menu {
+  list-style: none;
+}
+
+footer {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
 @media (max-width: 510px) {
   header {
     display: flex;
@@ -79,6 +97,8 @@ body {
   .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
   }
+}
+@media (max-width: 510px) {
   #hero {
     position: relative;
   }
@@ -126,6 +146,8 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
   }
+}
+@media (max-width: 510px) {
   #skills {
     place-items: center;
   }
@@ -176,6 +198,8 @@ body {
     font-size: 1.4rem;
     padding: 18px;
   }
+}
+@media (max-width: 510px) {
   #projects {
     display: grid;
     grid-template-rows: repeat(3, auto);
@@ -250,6 +274,8 @@ body {
     font-size: 1.1rem;
     font-weight: 100;
   }
+}
+@media (max-width: 510px) {
   #contact {
     place-items: center;
     background-color: #f7f6fb;
@@ -348,6 +374,8 @@ body {
   .field textarea {
     width: 100%;
   }
+}
+@media (max-width: 510px) {
   footer {
     background-color: #343d68;
     display: flex;
@@ -378,21 +406,4 @@ body {
     align-items: center;
     gap: 12px;
   }
-}
-section {
-  padding: 20px 20px 0;
-}
-
-header {
-  padding: 0 20px 0;
-  margin-top: 10px;
-}
-
-.menu {
-  list-style: none;
-}
-
-footer {
-  margin-top: 20px;
-  padding-top: 20px;
 }

@@ -1,4 +1,10 @@
 @use 'base/reset';
 @use 'base/helpers';
-@use 'responsive/mobile';
 @use 'base/base';
+@use 'responsive/header-mobile';
+@use 'responsive/hero-mobile';
+@use 'responsive/skills-mobile';
+@use 'responsive/projects-mobile';
+@use 'responsive/contact-mobile';
+@use 'responsive/footer-mobile';
+

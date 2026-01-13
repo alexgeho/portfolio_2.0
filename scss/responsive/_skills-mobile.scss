@@ -1,0 +1,67 @@
+@media (max-width: 510px) {
+
+    // SKILLS
+
+    #skills {
+        place-items: center;
+    }
+
+    .skills-image img {
+        width: 350px;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .skills-menu {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+
+    .skills-logos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+        gap: 50px;
+    }
+
+    .skills-logos img {
+        width: 90px;
+        height: auto;
+    }
+
+    .skills-panel {
+        display: none;
+    }
+
+    .skills-panel.active {
+        display: block;
+    }
+
+
+    .skills-menu button,
+    .hero-content button {
+        max-width: 90%;
+        padding: 15px;
+        color: white;
+        background-color: #E84849;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 1.2rem;
+        border: none;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+        &:hover {
+            background-color: #fd7979;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+        }
+
+    }
+
+    .hero-content .btn-primary--lg {
+        font-size: 1.4rem;
+        padding: 18px;
+    }
+
+
+}
