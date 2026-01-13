@@ -28,6 +28,12 @@ body {
 section {
   padding: 20px 20px 0;
 }
+section h2 {
+  color: #E84849;
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 2rem;
+}
 
 header {
   padding: 0 20px 0;
@@ -229,12 +235,14 @@ header h1 {
   background-color: #343d68;
 }
 
+#projects h2 {
+  color: white;
+  font-weight: 300;
+}
+
 .headline-section {
   margin-top: 15px;
   color: #e5e6eb;
-}
-.headline-section h2 {
-  font-weight: 300;
 }
 .headline-section p {
   text-transform: capitalize;
@@ -305,12 +313,6 @@ header h1 {
 #contact {
   place-items: center;
   background-color: #f7f6fb;
-}
-#contact h2 {
-  color: #E84849;
-  text-transform: capitalize;
-  font-weight: 300;
-  font-size: 2rem;
 }
 #contact img {
   display: block;
@@ -520,7 +522,7 @@ footer {
   }
   .hero-content h2 {
     font-weight: 100;
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .hero-content p {
     font-size: 2.3rem;
@@ -659,12 +661,6 @@ footer {
   #contact {
     place-items: center;
     background-color: #f7f6fb;
-  }
-  #contact h2 {
-    color: #E84849;
-    text-transform: capitalize;
-    font-weight: 300;
-    font-size: 2rem;
   }
   #contact img {
     display: block;

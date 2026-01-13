@@ -8,18 +8,28 @@
         background-color: #343d68;
     }
 
+    #projects h2 {
+        color: white;
+        font-weight: 300;
+    }
+
+
     .headline-section {
         margin-top: 15px;
         color: #e5e6eb;
-
-        h2 {
-            font-weight: 300;
-        }
 
         p {
             text-transform: capitalize;
         }
     }
+
+
+
+    //  .projects h2 {
+    //         font-weight: 300;
+    //         color: white;
+
+    //     }
 
     .external {
         width: auto;
