@@ -9,43 +9,48 @@
         place-items: center;
     }
 
+    .hero-images {
+        position: relative;
+    }
+
 
     .main-hero-image img {
-        width: 350px;
+        width: 100%;
+        max-width: 350px;
         height: auto;
     }
 
     .circles {
-        position: relative;
+        position: absolute;
         width: 80px;
-        top: -90px;
-        left: 180px;
+        top: 72%;
+        left: 72%;
     }
 
     .cube {
-        position: relative;
+        position: absolute;
         width: 35px;
-        top: -470px;
-        right: -30px;
+        top: -5%;
+        right: 10%;
     }
 
     .ellipse {
-        position: relative;
+        position: absolute;
         width: 20px;
-        top: -80px;
-        left: -100px;
+        top: 70%;
+        left: -5%;
     }
 
     .zigzags {
-        position: relative;
-        top: -400px;
-        left: -170px;
+        position: absolute;
+        top: -1%;
+        left: -10%;
     }
 
     .plus {
-        position: relative;
-        top: -490px;
-
+        position: absolute;
+        top: -10%;
+        left: 40%;
     }
 
 
