@@ -8,4 +8,9 @@
 @use 'responsive/contact-mobile';
 @use 'responsive/footer-mobile';
 
-@use 'tablet/header-tablet'
+@use 'tablet/header-tablet';
+@use 'tablet/hero-tablet';
+@use 'tablet/skills-tablet';
+@use 'tablet/projects-tablet';
+@use 'tablet/contact-tablet';
+@use 'tablet/footer-tablet';
