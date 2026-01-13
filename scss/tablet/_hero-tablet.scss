@@ -7,6 +7,11 @@
         grid-template-columns: repeat(2, 1fr);
         position: relative;
         place-items: center;
+
+        h2 {
+            font-size: 3.5rem;
+            font-style: none;
+        }
         
     }
 
