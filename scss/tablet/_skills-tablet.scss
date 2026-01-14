@@ -2,9 +2,10 @@
 
     // SKILLS
 
-    #skills {
-        place-items: center;
-    }
+  .skills-blocks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 
     .skills-image img {
         width: 550px;
@@ -20,7 +21,7 @@
 
     .skills-logos {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         place-items: center;
         gap: 50px;
     }

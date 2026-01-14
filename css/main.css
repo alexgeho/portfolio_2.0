@@ -176,7 +176,12 @@ header h1 {
 }
 
 .skill-background {
-  background: url("/img/skills/tech-skills/polygon.svg");
+  background: url("/img/skills/tech-skills/polygon.svg") center/contain no-repeat;
+  width: 100%;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .skills-image img {
@@ -541,8 +546,9 @@ footer {
   }
 }
 @media (min-width: 768px) {
-  #skills {
-    place-items: center;
+  .skills-blocks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
   .skills-image img {
     width: 550px;
@@ -556,7 +562,7 @@ footer {
   }
   .skills-logos {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     place-items: center;
     gap: 50px;
   }
