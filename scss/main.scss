@@ -14,3 +14,10 @@
 @use 'tablet/projects-tablet';
 @use 'tablet/contact-tablet';
 @use 'tablet/footer-tablet';
+
+@use 'desktop/header-desktop';
+@use 'desktop/hero-desktop';
+@use 'desktop/skills-desktop';
+@use 'desktop/projects-desktop';
+@use 'desktop/contact-desktop';
+@use 'desktop/footer-desktop';

@@ -1,0 +1,118 @@
+@media (min-width: 1024px) {
+
+// CONTACT
+    #contact {
+
+        place-items: center;
+        background-color: #f7f6fb;
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 900px;
+            height: auto;
+            margin-bottom: 40px;
+        }
+    }
+
+    #contact fieldset {
+        border: none;
+        margin-top: 70px;
+
+        p {
+            font-size: 2rem;
+        }
+    }
+
+    #contact legend {
+        font-size: 2.5rem;
+        margin-bottom: -10px;
+
+    }
+
+    #contact label {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 16px;
+        text-transform: capitalize;
+    }
+
+    #contact input,
+    #contact select,
+    #contact textarea {
+        margin-top: 6px;
+        padding: 12px 14px;
+        font-size: 2rem;
+        border: 1px solid #d7d7d7;
+        border-radius: 8px;
+        outline: none;
+    }
+
+    #contact button {
+        display: inline-flex;
+        position: relative;
+        align-items: center;
+        color: #fff;
+        padding: 0 18px 0;
+        gap: 10px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        background-color: #343d68;
+        height: 50px;
+        cursor: pointer;
+        margin-top: 20px;
+        font-size: 1.5rem;
+
+        img {
+            width: 25px;
+            position: relative;
+            top: 20px;
+
+        }
+    }
+
+    .field {
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .field input {
+        width: 100%;
+        padding: 14px 12px;
+    }
+
+    .field label {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-120%);
+        color: #777;
+        pointer-events: none;
+        transition: 0.2s ease;
+        padding: 0 4px;
+        font-size: 2rem;
+    }
+
+
+    .field input:focus+label,
+    .field input:not(:placeholder-shown)+label {
+        top: -6px;
+        color: #777;
+        font-size: 1.5rem;
+    }
+
+
+    .field textarea:focus+label,
+    .field textarea:not(:placeholder-shown)+label {
+        top: -6px;
+        font-size: 1.2rem;
+    }
+
+    .field textarea {
+        width: 100%;
+    }
+
+
+
+}

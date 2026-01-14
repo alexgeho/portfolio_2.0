@@ -1,0 +1,46 @@
+@media (min-width: 1024px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        background-color: rgb(255, 255, 255);
+        padding: 0 60px 0;
+
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 100;
+        }
+    }
+
+    .menu {
+        display: flex;
+        gap: 30px;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .nav {
+        display: block;
+    }
+
+
+
+    .menu li {
+
+        a {
+            text-decoration: none;
+            color: #575a89;
+            font-weight: 500;
+            font-size: 1.7rem;
+        }
+
+
+    }
+
+
+
+}

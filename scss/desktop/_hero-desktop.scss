@@ -1,0 +1,85 @@
+@media (min-width: 1024px) {
+
+    // HERO
+
+    #hero {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        position: relative;
+        place-items: center;
+        // padding-left: 60px;
+
+        h2 {
+            font-size: 3.5rem;
+            font-style: none;
+        }
+
+        button {
+            margin-bottom: 70px;
+        }
+        
+    }
+
+    .hero-images {
+        position: relative;
+    }
+
+
+    .main-hero-image img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .circles {
+        position: absolute;
+        width: 80px;
+        top: 72%;
+        left: 72%;
+    }
+
+    .cube {
+        position: absolute;
+        width: 35px;
+        top: -5%;
+        right: 10%;
+    }
+
+    .ellipse {
+        position: absolute;
+        width: 20px;
+        top: 70%;
+        left: -5%;
+    }
+
+    .zigzags {
+        position: absolute;
+        top: -1%;
+        left: -10%;
+    }
+
+    .plus {
+        position: absolute;
+        top: -10%;
+        left: 40%;
+    }
+
+
+    .hero-content {
+
+        h2 {
+            font-weight: 100;
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 2.3rem;
+            margin-bottom: 80px;
+        }
+    }
+
+
+
+
+
+}
