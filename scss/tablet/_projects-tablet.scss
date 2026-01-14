@@ -10,16 +10,22 @@
         background-color: #343d68;
     }
 
+
+    #projects h2 {
+        color: #e5e6eb;
+        font-weight: 300;
+        font-size: 2.5rem;
+    }
+
+
     .headline-section {
         margin-top: 15px;
         color: #e5e6eb;
-
-        h2 {
-            font-weight: 300;
-        }
+        place-items: center;
 
         p {
             text-transform: capitalize;
+            font-size: 1.5rem;
         }
     }
 
@@ -34,8 +40,8 @@
     .internal {
         border: 2px solid;
         border-image: linear-gradient(45deg, #262c4c, #7c87c3) 1;
-        width: 340px;
-        min-height: 260px;
+        width: 740px;
+        min-height: 460px;
         padding: 10px;
         margin: 20px;
         place-items: center;
@@ -52,24 +58,24 @@
         h3 {
             margin: 25px 0px 5px;
             font-weight: 100;
-            font-size: 1rem;
+            font-size: 2.5rem;
         }
 
         p {
             margin: 15px 0px 30px;
             font-weight: 100;
-            font-size: 0.8rem;
+            font-size: 1.8rem;
         }
     }
 
     .img-block {
-        height: 270px;
-        max-width: 250px;
+        height: 470px;
+        max-width: 450px;
         overflow: hidden;
         position: relative;
 
         img {
-            width: 240px;
+            width: 440px;
             height: auto;
             position: relative;
         }

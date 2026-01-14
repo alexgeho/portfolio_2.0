@@ -5,10 +5,11 @@
   .skills-blocks {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
   }
 
     .skills-image img {
-        width: 550px;
+        width: 450px;
         height: auto;
         margin-bottom: 40px;
     }
@@ -27,7 +28,7 @@
     }
 
     .skills-logos img {
-        width: 90px;
+        max-width: 90px;
         height: auto;
     }
 
