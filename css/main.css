@@ -687,7 +687,7 @@ footer {
   #contact img {
     display: block;
     margin: 0 auto;
-    width: 400px;
+    width: 600px;
     height: auto;
     margin-bottom: 40px;
   }
@@ -696,10 +696,10 @@ footer {
     margin-top: 70px;
   }
   #contact fieldset p {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
   #contact legend {
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin-bottom: -10px;
   }
   #contact label {
@@ -714,7 +714,7 @@ footer {
   #contact textarea {
     margin-top: 6px;
     padding: 12px 14px;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     border: 1px solid #d7d7d7;
     border-radius: 8px;
     outline: none;
@@ -724,7 +724,7 @@ footer {
     position: relative;
     align-items: center;
     color: #fff;
-    padding: 0 14px 0;
+    padding: 0 18px 0;
     gap: 10px;
     border-radius: 5px;
     text-transform: uppercase;
@@ -732,6 +732,7 @@ footer {
     height: 50px;
     cursor: pointer;
     margin-top: 20px;
+    font-size: 1.1rem;
   }
   #contact button img {
     width: 25px;
@@ -755,19 +756,18 @@ footer {
     pointer-events: none;
     transition: 0.2s ease;
     padding: 0 4px;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
   .field input:focus + label,
   .field input:not(:placeholder-shown) + label {
     top: -6px;
     color: #777;
-    font-size: 0.5rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .field textarea:focus + label,
   .field textarea:not(:placeholder-shown) + label {
     top: -6px;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .field textarea {
     width: 100%;
@@ -784,13 +784,21 @@ footer {
     gap: 15px;
     padding-bottom: 20px;
   }
+  footer h3 {
+    font-size: 2rem;
+    font-weight: 100;
+  }
+  footer p {
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
   .social-media {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 40px;
   }
   .social-media img {
-    width: 50px;
+    width: 70px;
     height: auto;
     margin: 15px 0 15px;
     filter: invert(1);
